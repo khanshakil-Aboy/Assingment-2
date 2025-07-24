@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* multy styles */
+.font-style{
+    
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+display-flex{
+    display: flex;
+}
+
+.max-width{
+    max-width: 1300px;
+    margin: 30px auto;
+}
+
+/* Nav section */
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu li{
+    list-style: none;
+}
+
+.nav-menu li a{
+    margin-right: 1.8rem;
+    text-decoration: none;
+    color:#8987A1 ;
+}
+#nav-bold{
+    color: #252432;
+    font-weight: bold;
+}
+
+#nav-cart{
+    color: #000000;
+    font-weight: 400;
+}
+
+/* Banner section */
