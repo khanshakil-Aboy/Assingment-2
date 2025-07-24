@@ -135,12 +135,16 @@ section{
     font-weight: bold;
 
 }
+.lover-image{
+    position: relative;
+    
+}
 
 .badge{
-    width: 20%;
+    width: 40%;
     position: absolute;
-    margin-left: 350px;
-    margin-top: -140px;
+    margin-left: 400px;
+    margin-top: -80px;
 }
 
 /* Letest section */
