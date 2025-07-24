@@ -56,6 +56,20 @@
     color: #252432 ;
 }
 
+/* Banner-container */
+.banner-container{
+    display: flex;
+    align-items: end;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#color-title{
+ color: #E95A08;
+}
 
 
 
@@ -68,5 +82,19 @@
     }
     .nav-bold, .nav-one, .nav-tow{
         display: none;
+    }
+
+    /* Banner-container */
+    .banner-container{
+        flex-direction: column-reverse;
+        
+        
+    }
+    .banner-text{
+        padding: 10px;
+    }
+
+    .banner-title{
+        font-size: 2rem;
     }
 }
