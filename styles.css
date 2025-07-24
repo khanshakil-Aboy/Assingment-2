@@ -20,7 +20,7 @@
 
 section{
     max-width: 1240px;
-    margin: 80px auto;
+    margin: 120px auto;
 }
 
 .dark-2{
@@ -116,6 +116,33 @@ section{
     border: none;
 }
 
+/* plants-lover-section */
+.plants-lover-section{
+    display: flex;
+    gap: 80px;
+}
+
+.lover-text{
+    max-width: 40%;
+}
+.lover-text ul li{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lover-title{
+    font-size:3.2rem ;
+    font-weight: bold;
+
+}
+
+.badge{
+    width: 20%;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -140px;
+}
+
 /* media quary */
 @media screen and (max-width:576px) {
     .nav-container{
@@ -160,4 +187,33 @@ section{
     .cart-item{
         padding: 5px;
     }
+
+    /* Plant lover section */
+    .badge{
+        display: none;
+    }
+
+    .plants-lover-section{
+        flex-direction: column;
+        row-gap: 10px;
+        
+    }
+
+
+    .lover-text{
+        max-width:100%;
+        padding-left:10px ;
+    }
+    .lover-image img{
+        max-width:100%;
+    }
+    .lover-title{
+        font-size: 2rem;
+    }
+
+    .lover-text ul li{
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+
 }
