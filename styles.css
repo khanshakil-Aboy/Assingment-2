@@ -143,6 +143,20 @@ section{
     margin-top: -140px;
 }
 
+/* Letest section */
+.letest-text{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.letest-title{
+    font-size: 3.2rem;
+}
+.letest-title span{
+    color: #E95A08;
+}
+
 /* media quary */
 @media screen and (max-width:576px) {
     .nav-container{
