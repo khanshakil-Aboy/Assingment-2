@@ -3,49 +3,70 @@
     padding: 0;
 }
 
-/* multy styles */
+/* multy css */
 .font-style{
-    
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-
 }
 
-display-flex{
-    display: flex;
-}
-
-.max-width{
-    max-width: 1300px;
+/* header section */
+.header{
+    max-width: 1240px;
     margin: 30px auto;
 }
 
-/* Nav section */
+.dark-2{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.2rem;
+}
+
+/* nav section */
 .nav-container{
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-menu li{
+.nav-menu ul{
+    display: flex;
+}
+
+.nav-menu ul li{
     list-style: none;
 }
 
-.nav-menu li a{
-    margin-right: 1.8rem;
+.nav-menu ul li a{
+    margin-left: 25px;
     text-decoration: none;
-    color:#8987A1 ;
+
 }
-#nav-bold{
-    color: #252432;
+.nav-bold{
+    font-size: 1.2rem;
+    color:#252432 ;
     font-weight: bold;
+
 }
 
-#nav-cart{
-    color: #000000;
+.nav-cart{
+    font-size: 1.2rem;
     font-weight: 400;
+    color: #252432 ;
 }
 
-/* Banner section */
+
+
+
+/* media quary */
+@media screen and (max-width:576px) {
+    .nav-container{
+        max-width:100% ;
+        padding: 10px;
+
+    }
+    .nav-bold, .nav-one, .nav-tow{
+        display: none;
+    }
+}
