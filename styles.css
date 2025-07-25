@@ -357,5 +357,21 @@ section{
         font-size: 1.4rem;
      }
 
+     /* .footer-banner-text */
+     .footer-banner-text{
+        width: 80%;
+     }
+     #footer-banner-input{
+        width: 60%;
+     }
+
+     .footer-banner-btn{
+        padding: 10px;
+     }
+
+     .footer-banner-title{
+        font-size: 1.2rem;
+     }
+
      
 }
